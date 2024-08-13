@@ -1,0 +1,2 @@
+- Used Round Robin as load balancing algorithm
+- Implemented health check functionality: check the application servers that we’re forwarding traffic to. If any server fails the health check then we will stop sending requests to it.
